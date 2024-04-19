@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BMIactivity">
+
+
+    <TextView
+        android:id="@+id/texbmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMI for adults"
+        android:layout_marginTop="30dp"
+        android:textSize="35dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/edescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:inputType="text"
+        android:text="Calculate body mass index."
+        android:textColor="@color/white"/>
+
+
+
+    <EditText
+        android:id="@+id/eTHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="70dp"
+        android:hint="Enter Height in CM"
+        android:padding="12dp"
+        android:background="@drawable/custom_input_text_field_background"
+        android:textColorHint="#989696"/>
+
+    <EditText
+        android:id="@+id/edWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="20dp"
+        android:padding="12dp"
+        android:hint="Enter Weight in KG"
+        android:background="@drawable/custom_input_text_field_background"
+        android:textColorHint="#989696"/>
+
+    <Button
+        android:id="@+id/btnPress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Press Here"
+        android:layout_marginTop="17dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginRight="110dp"
+        android:backgroundTint="#4C8087"/>
+
+    <TextView
+        android:id="@+id/tVResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:layout_margin="30dp"
+        android:hint="Resul"
+        android:background="@drawable/custom_input_text_field_background"
+        android:textColorHint="#989696"/>
+</LinearLayout>

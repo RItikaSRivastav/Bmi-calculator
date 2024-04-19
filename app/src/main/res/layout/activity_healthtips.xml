@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Healthtips"
+    android:padding="7dp"
+    android:background="@drawable/black"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/ehtips"
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="text"
+        android:padding="11dp"
+        android:text="HealthTips  Accordimg TO BMI"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/eunder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="12dp"
+        android:text="bmi  18.5 -> Underweight"
+        android:textColor="#00BCD4"
+        android:textSize="22dp"/>
+
+    <EditText
+        android:id="@+id/eTundertips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:layout_marginTop="6dp"
+        android:text=" * Underweight -> you may need to increase  your calorie intake and focus on strenth  training to gain muscles mass.\n\n * Have high calorie drinks in between meals' such as milkshakes "
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        android:inputType="textMultiLine"/>
+
+    <TextView
+        android:id="@+id/enormal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="7dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text=" bmi = 18.5 or bmi  25 -> Normal weight"
+        android:textColor="#FFEB3B"
+        android:textSize="21dp"/>
+
+    <EditText
+        android:id="@+id/eTnormaltips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="6dp"
+        android:layout_gravity="center"
+        android:gravity="start|top"
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        android:text="* Normal weight -> Maintain your healthy lifestyle with balanced diet and regular exercise.\n\n * Limit the time you spend being physically inactive. "
+        android:inputType="textMultiLine"/>
+
+     <TextView
+        android:id="@+id/eoverweight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="bmi = 25 or bmi  30 -> Overweight"
+        android:textColor="#4FDD55"
+        android:textSize="21dp"/>
+
+    <EditText
+        android:id="@+id/eTovertips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="6dp"
+        android:layout_gravity="center"
+        android:gravity="start|top"
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        android:text=" * Overweight -> Consider reducing your calorie intake, increasing physical activity, and consulting with a dietitian.\n\n * Ensure adequate sleep. Reduse screen time. Develop healthy eating habits."
+        android:inputType="textMultiLine"/>
+
+</LinearLayout>
