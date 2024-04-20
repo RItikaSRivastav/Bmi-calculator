@@ -1,6 +1,7 @@
 ## BMI Calculator
 
 Welcome to our BMI (Body Mass Index) Calculator project! 
+
 This simple tool helps you estimate your BMI based on your height and weight inputs.
 
 # Features:
