@@ -7,8 +7,7 @@ Features:
 * Get a quick assessment of your BMI category (underweight, normal weight, overweight, or obese).
 * Easy-to-use interface for quick calculations.
 
-  Screenshots
+  
 
-  ![Screenshot 2024-04-20 153446](https://github.com/RItikaSRivastav/Cognorise_infotech-Android_development-/assets/161809912/19d6cdff-e299-42d9-8402-6979ae7158ea), ![Screenshot 2024-04-20 153559](https://github.com/RItikaSRivastav/Cognorise_infotech-Android_development-/assets/161809912/df05d808-2796-433e-afc9-ec0322dfce6d)
-
+  
 
